@@ -1,0 +1,71 @@
+#dmFilter{
+    width: 3em;
+    height: 3em;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-image: url('../assets/favicon.ico');
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+    background-position: 0.5em 0.5em;
+    background-color: antiquewhite;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    z-index: 10000;
+    /* top: 50%; */
+    
+}
+#dmFilter:hover{
+    background-color: hsl(34, 78%, 60%);
+    /* transition: 0.3s; */
+}
+
+.filter{
+    /* width: 300px;
+    height: 300px;
+    background-color: red; */
+    position: absolute;
+    left: 4em;
+    top: 0em;
+}
+
+#filterInput{  
+	background:none;
+	outline:none;  
+	border:3px solid orange;
+    display: block;
+    background-color: beige;
+}
+.filter-container {
+    margin-bottom: 20px;
+    position: absolute;
+    left: 4em;
+    top: 0em;
+    width: 300px;
+    background-color: antiquewhite;
+}
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.filter-item {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.filter-item button {
+    margin-left: 5px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+.filter-item button:hover {
+    background-color: #c0392b;
+}
